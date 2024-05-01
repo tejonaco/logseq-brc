@@ -1,0 +1,33 @@
+{
+  "name": "logseq-brc",
+  "version": "0.1-alpha",
+  "description": "Make block references perdurable adding context",
+  "scripts": {
+    "dev": "parcel ./index.html --public-url ./",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "tejonaco",
+  "license": "MIT",
+  "dependencies": {
+    "@logseq/libs": "^0.0.17",
+    "ts-standard": "^12.0.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "typescript": "^5.4.5"
+  },
+  "logseq": {
+    "title": "Logseq Block Reference Context",
+    "id": "logseq-brc",
+    "main": "dist/index.html"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "./node_modules/ts-standard/eslintrc.json"
+    ]
+  }
+}
