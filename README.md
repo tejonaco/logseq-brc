@@ -1,6 +1,6 @@
 
 
-<h1 align="center">"Logseq Block References Context Plugin</h1>
+<h1 align="center">Logseq Block References Context Plugin</h1>
 <p align="center">
     <a href="https://github.com/tejonaco/logseq-brc">
         <img src="https://raw.githubusercontent.com/tejonaco/logseq-brc/master/assets/icon.png" alt="logo" width="256" height="256" />
