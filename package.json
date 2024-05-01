@@ -1,6 +1,6 @@
 {
   "name": "logseq-brc",
-  "version": "0.1-alpha",
+  "version": "0.1",
   "description": "Make block references perdurable adding context",
   "scripts": {
     "dev": "parcel ./index.html --public-url ./",
@@ -20,7 +20,8 @@
   "logseq": {
     "title": "Logseq Block Reference Context",
     "id": "logseq-brc",
-    "main": "dist/index.html"
+    "main": "dist/index.html",
+    "icon": "assets/icon.png"
   },
   "eslintConfig": {
     "parserOptions": {
