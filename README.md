@@ -14,6 +14,9 @@ The purpose of this plugin is make references readable even when original block 
 Write slash command `/Block Reference Context` into a block with at least one block reference.
 
 ## TODOs
+- [ ] [BUG] References of multiline blocks 
+- [ ] [BUG] Skip replacing on embeds
+- [ ] [BUG] References to ORG mode blocks
+- [ ] Try to keep original block css (now it only keeps text)
 - [ ] Add shortcut command
 - [ ] Option for automatic mode when pasting
-- [ ] Try to keep original block css (now it only keeps text)
