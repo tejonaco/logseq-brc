@@ -3,19 +3,19 @@
   "version": "0.1",
   "description": "Make block references perdurable adding context",
   "scripts": {
-    "dev": "parcel ./index.html --public-url ./",
-    "build": "parcel build index.html --public-url ./"
+    "dev": "vite build --watch",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "tejonaco",
   "license": "MIT",
   "dependencies": {
-    "@logseq/libs": "^0.0.17",
-    "ts-standard": "^12.0.2"
+    "@logseq/libs": "^0.0.17"
   },
   "devDependencies": {
-    "parcel": "^2.12.0",
-    "typescript": "^5.4.5"
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
   },
   "logseq": {
     "title": "Logseq Block Reference Context",
